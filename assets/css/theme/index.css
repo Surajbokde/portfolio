@@ -137,6 +137,7 @@
 .bar{
   background-color: rgba(136, 130, 130, 0.342);
   padding: 2px;
+  height: 33.2px;
   border-radius: 15px;
   margin-bottom: 5px;
   font-size: 14px;
@@ -149,7 +150,7 @@
   background: #00C9FF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  height: 29.2px;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -167,7 +168,7 @@
 }
 
 .bar.learning::before{
-  width: calc(20% - 10px);
+  width: calc(30% - 10px);
 }
 .bar.basic::before{
   width: calc(40% - 10px);
@@ -188,8 +189,8 @@
 .skillset img{
   margin-top: 30px;
   background-color: #00ff7300;
- 
-  width: 400px;
+  
+  width: auto;
   height: 400px;
 }
 
