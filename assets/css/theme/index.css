@@ -363,14 +363,37 @@ border-radius: 30px;
 .project-card .about-project h2:hover{
   transform: scale(1.1);
 }
+.project-card .about-project .title{
+  margin-left: 8px;
+}
 .project-card .about-project .title p{
-  
+  padding: 3px;
   font-weight: 600;
-  color: #c9c9c9b2;
+  color: #c9c9c9;
   letter-spacing: 1px;
   text-transform: capitalize;
   margin-bottom: 5px;
 }
+.project-card .about-project .title li{ 
+  display: inline-block;
+  margin-left: 6px; 
+  padding: 3px;
+  font-size: 12px;
+  font-family: 'Indie Flower', cursive;
+  
+  background-color: #eaee05a1;
+  border-radius: 36px;
+  font-weight: 600;
+  color: #c9c9c9f5;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.project-card .about-project .title li:hover{
+  transform: scale(.9);
+}
+
+
 
 .project-card .about-project .project-text p{
   padding: 5px;
@@ -387,7 +410,7 @@ border-radius: 30px;
 }
 .project-card .about-project .project-text{
   margin-bottom: 40px;
-  height: 160px;
+  height: 110px;
 }
 .project-card .social{
  text-align: left;
@@ -407,7 +430,12 @@ border-radius: 30px;
   color: #c9c9c9f5;
   letter-spacing: 1px;
   text-transform: capitalize;
-  margin-bottom: 5px;}
+  margin-bottom: 5px;
+}
+
+  
+
+
 .project-card .social li a{
   font-family: 'Indie Flower', cursive;
   color: #c9c9c9;padding: 5px;
